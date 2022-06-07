@@ -1,0 +1,130 @@
+html{    
+    background: url(../images/ft2.png),linear-gradient(to left, #929aab, #f7f7f7);   
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #231e23;
+}
+h2{
+    color: #393e46b4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: large;
+    color: #393e46b4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{    
+    padding:0px;
+    border: 10px solid rgb(57, 62, 70);
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px      
+}
+ul{
+    list-style-type: none;
+    background-color: #929aab;
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+}
+li a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li a:hover{
+    background-color: #393e46;
+}
+ol, li{
+    color: #393e46e6;
+    font-size: 20px;
+}
+table{
+    width: 100%;
+}
+caption{
+    color: #393e46;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+}
+table, th, td{
+    border: 3px solid whitesmoke;
+    border-collapse: collapse;
+    padding: 5px;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+td{
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: #929aab;
+}
+tr:nth-child(odd){
+    background-color: #393e46;
+}
+
+
+
+.contenedor{
+    margin: 50px auto;
+    width: 800px;
+    padding: 30px;
+    background: #16161680;
+    border-radius: 10px;
+}
+.contenedor h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.contenedor .elemento label{
+ color: white;
+
+}
+.contenedor .elemento2 label{
+    color: white;
+   
+   }
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    background: transparent;
+    border: none; 
+    border-bottom: 1px solid white;  
+    margin-bottom: 30px;
+   }
+   .contenedor  .elemento .boton input{
+    background-color: #343a40;
+    border: none;
+} 
+ 
+.contenedor  .elemento .boton input:hover{
+    background-color: #929aab;
+} 
+ 
+textarea{
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    background: transparent;
+    border: none; 
+    border-bottom: 1px solid white;  
+    margin-bottom: 30px;
+    font-size: 15px;
+}
