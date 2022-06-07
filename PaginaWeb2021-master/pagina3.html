@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime</title>
+
+    <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Index</a></li>
+        <li><a href="pagina2.html">VideoJuegos</a></li>
+        <li><a href="pagina3.html">Anime</a></li>
+        <li><a href="https://github.com/IrvingGlt?tab=repositories" target="_blank">Mi GitHub</a></li>
+        <li><a href="pagina4.html">Lenguajes de Programación</a></li>
+        <li><a href="contacto.html">Contactame</a></li>
+        <li><a href="comentarios.html" class="barraN">Comentarios</a></li>
+        <li><a href="Presupuesto/index.html" class="barraN">Mis finanzas</a></li>  
+    </ul>
+    <h1>Jujutsu Kaisen</h1>
+    <p><strong>Jujutsu Kaisen</strong>, también conocida como Jujutsu Kaisen: Guerra de hechiceros en España, es un <mark>manga</mark> escrito e ilustrado por <ins>Gege Akutami</ins>. Actualmente se publica en la revista Shōnen Jump, de la editorial japonesa Shūeisha, desde el 5 de marzo de 2018.</p>
+    <p>Mi personaje favorito de Jujutsu es Gojou Satoru<sub class="supe">&star;</sub></p>
+    <div align="center"><img src="images/jujutsu.jpg" title="JUJUTSU KAISEN" style="width: 250px;"></div>
+    <hr/>
+    <h1>Sword Art Online</h1>
+    <p><strong>Sword Art Online</strong> es una serie de novelas ligeras japonesas escritas por Reki Kawahara e ilustradas por <small>Abec</small>. A partir de estas, se han creado diversas adaptaciones, tanto de cómic como de anime.​</p>
+    <p>Mi personaje favorito de Sword art online es Asuna<sup class="supe">&hearts;</sup></p>
+    <div align="center"><img src="images/sao.jpg" title="SAO" style="width: 500px;"></div>
+    <hr/> 
+    <script>
+        const parrafos = document.getElementsByTagName('p')
+        console.log(`El numero de parrafos en esta pagina es: ${parrafos.length}`)
+        const elementosSup = document.querySelectorAll('sup.supe')
+        const elementosSub = document.querySelectorAll('sub.supe')
+        console.log('Estos son los caracteres especiales utilizados:')
+        for(item of elementosSup){
+            console.log(`${item.innerHTML}`)
+        }
+        for(item of elementosSub){
+            console.log(`${item.innerHTML}`)
+        }        
+    </script>  
+</body>
+</html>
