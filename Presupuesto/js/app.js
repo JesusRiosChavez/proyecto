@@ -1,12 +1,12 @@
 const ingresos = [
-    new Ingreso('Venta de cuenta League of Legends', 500.00),
+    new Ingreso('Venta de bolis', 500.00),
     new Ingreso('Beca',4800.00),
     new Ingreso('Ingreso Semanal Criptomonedas',100.00)       
 ]
 const egresos =[
     new Egreso('Pago del recibo de la luz', 1250.00),
     new Egreso('Pago del Internet', 550.00),
-    new Egreso('Pase de batalla Genshin Impact', 250.00)
+    new Egreso('Pase de batalla warzone, 250.00)
 ]
 let cargarApp = ()=>{
     cargarCabecero()
