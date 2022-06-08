@@ -6,7 +6,7 @@ const ingresos = [
 const egresos =[
     new Egreso('Pago del recibo de la luz', 1250.00),
     new Egreso('Pago del Internet', 550.00),
-    new Egreso('Pase de batalla warzone, 250.00)
+    new Egreso('Pase de batalla Warzone', 250.00)
 ]
 let cargarApp = ()=>{
     cargarCabecero()
