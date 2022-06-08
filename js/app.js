@@ -1,6 +1,6 @@
 const arregloComentarios = [
-    new Comentario('Irving Gregorio', 'Lopez Torres','Buena Pagina'),
-    new Comentario('Sheila','Montero Prieto','Buen diseño')      
+    new Comentario('Elver', 'Galarga','Buena Pagina crack'),
+    new Comentario('Larry','Atona','ta bien')      
 ]
 
 function mostrarComentarios(){
