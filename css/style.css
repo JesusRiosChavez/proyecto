@@ -1,5 +1,5 @@
 html{    
-    background: url(../images/ft2.png),linear-gradient(to left, #929aab, #f7f7f7);   
+    background: url(../images/ft2.png),linear-gradient(to left, #8096c7, #f7f7f7);   
     
 }
 
@@ -19,7 +19,7 @@ p{
 }
 img{    
     padding:0px;
-    border: 10px solid rgb(57, 62, 70);
+    border: 10px solid rgb(54, 73, 105);
     margin-top: 40px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -27,7 +27,7 @@ img{
 }
 ul{
     list-style-type: none;
-    background-color: #929aab;
+    background-color: #722779;
     margin: 0;
     padding: 0%;
     overflow: hidden;
