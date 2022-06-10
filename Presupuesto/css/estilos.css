@@ -34,7 +34,7 @@ body {
     color: #fff;
     background: url(fondo.png), #7b4397;
     background: url(fondo.png), -webkit-gradient(linear, right top, left top, from(#929aab), to(#f7f7f7));
-    background: url(fondo.png), linear-gradient(to left, #929aab, #f7f7f7)
+    background: url(fondo.png), linear-gradient(to left, #060607, #f7f7f7)
 }
 
 .presupuesto {
@@ -261,7 +261,7 @@ h2 {
 
 ul{
     list-style-type: none;
-    background-color: #929aab;
+    background-color: #0b1835;
     margin: 0;
     padding: 0%;
     overflow: hidden;
